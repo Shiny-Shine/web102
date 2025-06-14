@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            font-size: 14px;
+            font-family: 'Malgun Gothic';
+            line-height: 23px;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        #top {
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        #top > div {
+            float: left;
+        }
+
+        .top_left {
+            width: 750px;
+            height: 500px;
+            background-image: url(../img/chef_about.png);
+        }
+
+        .top_box {
+            width: 210px;
+            height: 210px;
+            padding: 20px;
+            margin-top: 250px;
+            background: rgba(0, 255, 0, 0.5);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .top_box > span, .box_left > .box > p > span {
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .top_right {
+            width: 250px;
+            height: 500px;
+            line-height: 0;
+        }
+
+        #box_all {
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        #box_all > div {
+            float: left;
+        }
+
+        .box_left {
+            width: 750px;
+            height: 500px;
+        }
+
+        .box {
+            width: 210px;
+            height: 210px;
+            padding: 20px;
+            background-color: lightgrey;
+            float: left;
+        }
+
+        .box > p, .box_right > p {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .box:nth-child(2n) {
+            background-color: orange;
+        }
+
+        .box_right {
+            width: 210px;
+            height: 460px;
+            padding: 20px;
+            background-color: greenyellow;
+        }
+
+        #footer {
+            width: 750px;
+            height: 40px;
+            margin-left: calc(50% - 375px - 125px);
+            margin-right: 250px;
+            background-color: pink;
+        }
+
+        #footer ul {
+            width: 730px;
+            height: 100%;
+            padding-left: 20px;
+            background-color: gray;
+        }
+
+        #footer ul li {
+            display: inline-block;
+            line-height: 40px;
+            margin: 0 5px;
+        }
+
+        #footer ul li:nth-child(2n) {
+            color: orange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div class="top_left">
+            <p class="top_box">
+                GLOBAL<br>BUSINESS<br>
+                <br>
+                <span>
+                    야! 돈까스를 왜 사먹냐? 그 돈이면 차라리 뜨끈~한 국밥 든든~하게 먹고 말지.
+                </span>
+            </p>
+        </div>
+
+        <div class="top_right">
+            <img src="../img/right1.png" alt="right1">
+            <img src="../img/right2.png" alt="right2">
+        </div>
+    </div>
+
+    <div id="box_all">
+
+        <div class="box_left">
+            <div class="box">
+                <p>
+                    야! 소바를 왜 사먹냐?
+                    <br>
+                    <span>그 돈이면 차라리 뜨끈~한 국밥 든든~하게 먹고 말지</span>
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    야! 햄버거를 왜 사먹냐?
+                    <br>
+                    <span>그 돈이면 차라리 2000원 보태서 뜨끈~하고 든든~한 국밥 한 그릇 사먹고 말지.</span>
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    3
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    4
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    5
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    6
+                </p>
+            </div>
+        </div>
+
+        <div class="box_right">
+            <p>
+                7
+            </p>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <ul>
+            <li>법적고지</li>
+            <li>|</li>
+            <li>이메일무단수집거부</li>
+            <li>|</li>
+            <li>이용약관</li>
+            <li>|</li>
+            <li>개인정보취급방침</li>
+            <li>|</li>
+            <li>고객센터</li>
+            <li>|</li>
+            <li>입찰공고</li>
+          </ul>
+    </div>
+</body>
+</html>
