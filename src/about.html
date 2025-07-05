@@ -8,7 +8,6 @@
         * {
             font-size: 14px;
             font-family: 'Malgun Gothic';
-            line-height: 23px;
             margin: 0;
             padding: 0;
         }
@@ -22,10 +21,12 @@
             height: 500px;
             margin: 0 auto;
             margin-top: 30px;
+            font-size: 0;
         }
 
         #top > div {
-            float: left;
+            display: inline-block;
+            vertical-align: top;
         }
 
         .top_left {
@@ -52,22 +53,25 @@
         .top_right {
             width: 250px;
             height: 500px;
-            line-height: 0;
+            font-size: 0;
         }
 
         #box_all {
             width: 1000px;
             height: 500px;
             margin: 0 auto;
+            font-size: 0;
         }
 
         #box_all > div {
-            float: left;
+            display: inline-block;
+            vertical-align: top;
         }
 
         .box_left {
             width: 750px;
             height: 500px;
+            font-size: 0;
         }
 
         .box {
@@ -75,13 +79,13 @@
             height: 210px;
             padding: 20px;
             background-color: lightgrey;
-            float: left;
+            display: inline-block;
+            vertical-align: top;
         }
 
         .box > p, .box_right > p {
             font-size: 20px;
             font-weight: bold;
-            line-height: 1.2;
         }
 
         .box:nth-child(2n) {
@@ -112,7 +116,7 @@
 
         #footer ul li {
             display: inline-block;
-            line-height: 40px;
+            padding: 11px 0;
             margin: 0 5px;
         }
 
